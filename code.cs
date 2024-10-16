@@ -12,7 +12,7 @@ public class HelloWorld
         Console.WriteLine("========Sign Up========");
         Console.Write("Enter your username: ");
         username = Console.ReadLine();
-        Console.Write($"Enter password for {username} account: ");
+        Console.Write("Enter password for "+username+" account: ");
         password = Console.ReadLine();
         Console.Write("Enter your password again :");
         string sec_password = Console.ReadLine();
@@ -34,7 +34,7 @@ public class HelloWorld
         string login_user = Console.ReadLine();
         while (login_user != username) 
             {
-                Console.Write($"The user ({login_user}) dose NOT exist. Try again: ");
+                Console.Write("The user ("+login_user+") dose NOT exist. Try again: ");
                 login_user = Console.ReadLine();
             }
         Console.Write("Enter your password: ");
@@ -44,7 +44,7 @@ public class HelloWorld
                 Console.Write("Your password was WRONG . Try again: ");
                 login_pass = Console.ReadLine();
             }
-        Console.Write($"You have logged in seccuessfully.\nUsername : {username}\nPassword : {password}");
+        Console.Write("You have logged in seccuessfully.\nUsername : "+username+"\nPassword : +password);
         Console.ReadLine();
     }
     public static void Main(string[] args)

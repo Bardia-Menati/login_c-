@@ -44,7 +44,7 @@ public class HelloWorld
                 Console.Write("Your password was WRONG . Try again: ");
                 login_pass = Console.ReadLine();
             }
-        Console.Write("You have logged in seccuessfully.\nUsername : "+username+"\nPassword : +password);
+        Console.Write("You have logged in seccuessfully.\nUsername : "+username+"\nPassword : "+password);
         Console.ReadLine();
     }
     public static void Main(string[] args)
